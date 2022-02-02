@@ -4,10 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Basic data types.xcscheme_^#shared#^_</key>
+		<key>Arithmetic Operator.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Basic Operators.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Basic data types.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
@@ -19,12 +29,12 @@
 		<key>Enum example.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>9</integer>
 		</dict>
 		<key>Rectangle.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>10</integer>
 		</dict>
 		<key>Xcode Projects.xcscheme_^#shared#^_</key>
 		<dict>
@@ -34,7 +44,12 @@
 		<key>format specifier.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>2</integer>
+		</dict>
+		<key>logical operator.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
 		</dict>
 		<key>scanf.xcscheme_^#shared#^_</key>
 		<dict>
@@ -55,6 +70,11 @@
 			<true/>
 		</dict>
 		<key>3F392BDA27A4420900C5FBA0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3FFE672C27AAF86E00BEACC1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

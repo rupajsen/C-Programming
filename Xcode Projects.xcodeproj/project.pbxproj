@@ -14,6 +14,7 @@
 		3FC1A60427A97DE100407E49 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1A60327A97DE100407E49 /* main.c */; };
 		3FC1A60F27A9839500407E49 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1A60E27A9839500407E49 /* main.c */; };
 		3FC1A61A27A988A200407E49 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1A61927A988A200407E49 /* main.c */; };
+		3FFE674627AAFBE200BEACC1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE674527AAFBE200BEACC1 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -89,6 +90,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		3FFE672B27AAF86E00BEACC1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3FFE673627AAFB2A00BEACC1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3FFE674127AAFBE200BEACC1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -107,6 +135,10 @@
 		3FC1A60E27A9839500407E49 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		3FC1A61727A988A200407E49 /* Enum example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Enum example"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC1A61927A988A200407E49 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3FFE672D27AAF86E00BEACC1 /* Basic Operators */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Basic Operators"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFE673827AAFB2A00BEACC1 /* Arithmetic Operator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Arithmetic Operator"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFE674327AAFBE200BEACC1 /* logical operator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "logical operator"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFE674527AAFBE200BEACC1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +198,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3FFE672A27AAF86E00BEACC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFE673527AAFB2A00BEACC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFE674027AAFBE200BEACC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -179,6 +232,7 @@
 				3FC1A60227A97DE100407E49 /* Command line Arguments */,
 				3FC1A60D27A9839500407E49 /* Rectangle */,
 				3FC1A61827A988A200407E49 /* Enum example */,
+				3FFE674427AAFBE200BEACC1 /* logical operator */,
 				3F392BB327A3BAEB00C5FBA0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -194,6 +248,9 @@
 				3FC1A60127A97DE100407E49 /* Command line Arguments */,
 				3FC1A60C27A9839500407E49 /* Rectangle */,
 				3FC1A61727A988A200407E49 /* Enum example */,
+				3FFE672D27AAF86E00BEACC1 /* Basic Operators */,
+				3FFE673827AAFB2A00BEACC1 /* Arithmetic Operator */,
+				3FFE674327AAFBE200BEACC1 /* logical operator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -252,6 +309,14 @@
 				3FC1A61927A988A200407E49 /* main.c */,
 			);
 			path = "Enum example";
+			sourceTree = "<group>";
+		};
+		3FFE674427AAFBE200BEACC1 /* logical operator */ = {
+			isa = PBXGroup;
+			children = (
+				3FFE674527AAFBE200BEACC1 /* main.c */,
+			);
+			path = "logical operator";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -393,6 +458,57 @@
 			productReference = 3FC1A61727A988A200407E49 /* Enum example */;
 			productType = "com.apple.product-type.tool";
 		};
+		3FFE672C27AAF86E00BEACC1 /* Basic Operators */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFE673327AAF86E00BEACC1 /* Build configuration list for PBXNativeTarget "Basic Operators" */;
+			buildPhases = (
+				3FFE672927AAF86E00BEACC1 /* Sources */,
+				3FFE672A27AAF86E00BEACC1 /* Frameworks */,
+				3FFE672B27AAF86E00BEACC1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Basic Operators";
+			productName = "Basic Operators";
+			productReference = 3FFE672D27AAF86E00BEACC1 /* Basic Operators */;
+			productType = "com.apple.product-type.tool";
+		};
+		3FFE673727AAFB2A00BEACC1 /* Arithmetic Operator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFE673C27AAFB2A00BEACC1 /* Build configuration list for PBXNativeTarget "Arithmetic Operator" */;
+			buildPhases = (
+				3FFE673427AAFB2A00BEACC1 /* Sources */,
+				3FFE673527AAFB2A00BEACC1 /* Frameworks */,
+				3FFE673627AAFB2A00BEACC1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Arithmetic Operator";
+			productName = "Arithmetic Operator";
+			productReference = 3FFE673827AAFB2A00BEACC1 /* Arithmetic Operator */;
+			productType = "com.apple.product-type.tool";
+		};
+		3FFE674227AAFBE200BEACC1 /* logical operator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFE674727AAFBE200BEACC1 /* Build configuration list for PBXNativeTarget "logical operator" */;
+			buildPhases = (
+				3FFE673F27AAFBE200BEACC1 /* Sources */,
+				3FFE674027AAFBE200BEACC1 /* Frameworks */,
+				3FFE674127AAFBE200BEACC1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "logical operator";
+			productName = "logical operator";
+			productReference = 3FFE674327AAFBE200BEACC1 /* logical operator */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -426,6 +542,15 @@
 					3FC1A61627A988A200407E49 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					3FFE672C27AAF86E00BEACC1 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3FFE673727AAFB2A00BEACC1 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3FFE674227AAFBE200BEACC1 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 3F392BAD27A3BAEA00C5FBA0 /* Build configuration list for PBXProject "Xcode Projects" */;
@@ -449,6 +574,9 @@
 				3FC1A60027A97DE100407E49 /* Command line Arguments */,
 				3FC1A60B27A9839500407E49 /* Rectangle */,
 				3FC1A61627A988A200407E49 /* Enum example */,
+				3FFE672C27AAF86E00BEACC1 /* Basic Operators */,
+				3FFE673727AAFB2A00BEACC1 /* Arithmetic Operator */,
+				3FFE674227AAFBE200BEACC1 /* logical operator */,
 			);
 		};
 /* End PBXProject section */
@@ -514,6 +642,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FC1A61A27A988A200407E49 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFE672927AAF86E00BEACC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFE673427AAFB2A00BEACC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFE673F27AAFBE200BEACC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFE674627AAFBE200BEACC1 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -759,6 +909,54 @@
 			};
 			name = Release;
 		};
+		3FFE673127AAF86E00BEACC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FFE673227AAF86E00BEACC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FFE673D27AAFB2A00BEACC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FFE673E27AAFB2A00BEACC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FFE674827AAFBE200BEACC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FFE674927AAFBE200BEACC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -839,6 +1037,33 @@
 			buildConfigurations = (
 				3FC1A61C27A988A200407E49 /* Debug */,
 				3FC1A61D27A988A200407E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFE673327AAF86E00BEACC1 /* Build configuration list for PBXNativeTarget "Basic Operators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFE673127AAF86E00BEACC1 /* Debug */,
+				3FFE673227AAF86E00BEACC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFE673C27AAFB2A00BEACC1 /* Build configuration list for PBXNativeTarget "Arithmetic Operator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFE673D27AAFB2A00BEACC1 /* Debug */,
+				3FFE673E27AAFB2A00BEACC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFE674727AAFBE200BEACC1 /* Build configuration list for PBXNativeTarget "logical operator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFE674827AAFBE200BEACC1 /* Debug */,
+				3FFE674927AAFBE200BEACC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
