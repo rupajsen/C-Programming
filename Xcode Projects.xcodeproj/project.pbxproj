@@ -15,6 +15,7 @@
 		3FC1A60F27A9839500407E49 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1A60E27A9839500407E49 /* main.c */; };
 		3FC1A61A27A988A200407E49 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1A61927A988A200407E49 /* main.c */; };
 		3FFE674627AAFBE200BEACC1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE674527AAFBE200BEACC1 /* main.c */; };
+		3FFE675127B016B100BEACC1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE675027B016B100BEACC1 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -117,6 +118,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		3FFE674C27B016B100BEACC1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -139,6 +149,8 @@
 		3FFE673827AAFB2A00BEACC1 /* Arithmetic Operator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Arithmetic Operator"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFE674327AAFBE200BEACC1 /* logical operator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "logical operator"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFE674527AAFBE200BEACC1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3FFE674E27B016B100BEACC1 /* Bitwise operators */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Bitwise operators"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFE675027B016B100BEACC1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +231,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3FFE674B27B016B100BEACC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -233,6 +252,7 @@
 				3FC1A60D27A9839500407E49 /* Rectangle */,
 				3FC1A61827A988A200407E49 /* Enum example */,
 				3FFE674427AAFBE200BEACC1 /* logical operator */,
+				3FFE674F27B016B100BEACC1 /* Bitwise operators */,
 				3F392BB327A3BAEB00C5FBA0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -251,6 +271,7 @@
 				3FFE672D27AAF86E00BEACC1 /* Basic Operators */,
 				3FFE673827AAFB2A00BEACC1 /* Arithmetic Operator */,
 				3FFE674327AAFBE200BEACC1 /* logical operator */,
+				3FFE674E27B016B100BEACC1 /* Bitwise operators */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -317,6 +338,14 @@
 				3FFE674527AAFBE200BEACC1 /* main.c */,
 			);
 			path = "logical operator";
+			sourceTree = "<group>";
+		};
+		3FFE674F27B016B100BEACC1 /* Bitwise operators */ = {
+			isa = PBXGroup;
+			children = (
+				3FFE675027B016B100BEACC1 /* main.c */,
+			);
+			path = "Bitwise operators";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -509,6 +538,23 @@
 			productReference = 3FFE674327AAFBE200BEACC1 /* logical operator */;
 			productType = "com.apple.product-type.tool";
 		};
+		3FFE674D27B016B100BEACC1 /* Bitwise operators */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFE675427B016B100BEACC1 /* Build configuration list for PBXNativeTarget "Bitwise operators" */;
+			buildPhases = (
+				3FFE674A27B016B100BEACC1 /* Sources */,
+				3FFE674B27B016B100BEACC1 /* Frameworks */,
+				3FFE674C27B016B100BEACC1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bitwise operators";
+			productName = "Bitwise operators";
+			productReference = 3FFE674E27B016B100BEACC1 /* Bitwise operators */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -551,6 +597,9 @@
 					3FFE674227AAFBE200BEACC1 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					3FFE674D27B016B100BEACC1 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 3F392BAD27A3BAEA00C5FBA0 /* Build configuration list for PBXProject "Xcode Projects" */;
@@ -577,6 +626,7 @@
 				3FFE672C27AAF86E00BEACC1 /* Basic Operators */,
 				3FFE673727AAFB2A00BEACC1 /* Arithmetic Operator */,
 				3FFE674227AAFBE200BEACC1 /* logical operator */,
+				3FFE674D27B016B100BEACC1 /* Bitwise operators */,
 			);
 		};
 /* End PBXProject section */
@@ -664,6 +714,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FFE674627AAFBE200BEACC1 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFE674A27B016B100BEACC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFE675127B016B100BEACC1 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -957,6 +1015,22 @@
 			};
 			name = Release;
 		};
+		3FFE675227B016B100BEACC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FFE675327B016B100BEACC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1064,6 +1138,15 @@
 			buildConfigurations = (
 				3FFE674827AAFBE200BEACC1 /* Debug */,
 				3FFE674927AAFBE200BEACC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFE675427B016B100BEACC1 /* Build configuration list for PBXNativeTarget "Bitwise operators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFE675227B016B100BEACC1 /* Debug */,
+				3FFE675327B016B100BEACC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
