@@ -14,6 +14,7 @@
 		3FC1A60427A97DE100407E49 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1A60327A97DE100407E49 /* main.c */; };
 		3FC1A60F27A9839500407E49 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1A60E27A9839500407E49 /* main.c */; };
 		3FC1A61A27A988A200407E49 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1A61927A988A200407E49 /* main.c */; };
+		3FD490B227B147F50035A979 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FD490B127B147F50035A979 /* main.c */; };
 		3FFE674627AAFBE200BEACC1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE674527AAFBE200BEACC1 /* main.c */; };
 		3FFE675127B016B100BEACC1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE675027B016B100BEACC1 /* main.c */; };
 /* End PBXBuildFile section */
@@ -91,6 +92,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		3FD490AD27B147F50035A979 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		3FFE672B27AAF86E00BEACC1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -145,6 +155,8 @@
 		3FC1A60E27A9839500407E49 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		3FC1A61727A988A200407E49 /* Enum example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Enum example"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC1A61927A988A200407E49 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3FD490AF27B147F50035A979 /* MinutesConversion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MinutesConversion; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD490B127B147F50035A979 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		3FFE672D27AAF86E00BEACC1 /* Basic Operators */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Basic Operators"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFE673827AAFB2A00BEACC1 /* Arithmetic Operator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Arithmetic Operator"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFE674327AAFBE200BEACC1 /* logical operator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "logical operator"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -210,6 +222,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3FD490AC27B147F50035A979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3FFE672A27AAF86E00BEACC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,6 +272,7 @@
 				3FC1A61827A988A200407E49 /* Enum example */,
 				3FFE674427AAFBE200BEACC1 /* logical operator */,
 				3FFE674F27B016B100BEACC1 /* Bitwise operators */,
+				3FD490B027B147F50035A979 /* MinutesConversion */,
 				3F392BB327A3BAEB00C5FBA0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -272,6 +292,7 @@
 				3FFE673827AAFB2A00BEACC1 /* Arithmetic Operator */,
 				3FFE674327AAFBE200BEACC1 /* logical operator */,
 				3FFE674E27B016B100BEACC1 /* Bitwise operators */,
+				3FD490AF27B147F50035A979 /* MinutesConversion */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -330,6 +351,14 @@
 				3FC1A61927A988A200407E49 /* main.c */,
 			);
 			path = "Enum example";
+			sourceTree = "<group>";
+		};
+		3FD490B027B147F50035A979 /* MinutesConversion */ = {
+			isa = PBXGroup;
+			children = (
+				3FD490B127B147F50035A979 /* main.c */,
+			);
+			path = MinutesConversion;
 			sourceTree = "<group>";
 		};
 		3FFE674427AAFBE200BEACC1 /* logical operator */ = {
@@ -487,6 +516,23 @@
 			productReference = 3FC1A61727A988A200407E49 /* Enum example */;
 			productType = "com.apple.product-type.tool";
 		};
+		3FD490AE27B147F50035A979 /* MinutesConversion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FD490B527B147F50035A979 /* Build configuration list for PBXNativeTarget "MinutesConversion" */;
+			buildPhases = (
+				3FD490AB27B147F50035A979 /* Sources */,
+				3FD490AC27B147F50035A979 /* Frameworks */,
+				3FD490AD27B147F50035A979 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinutesConversion;
+			productName = MinutesConversion;
+			productReference = 3FD490AF27B147F50035A979 /* MinutesConversion */;
+			productType = "com.apple.product-type.tool";
+		};
 		3FFE672C27AAF86E00BEACC1 /* Basic Operators */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FFE673327AAF86E00BEACC1 /* Build configuration list for PBXNativeTarget "Basic Operators" */;
@@ -588,6 +634,9 @@
 					3FC1A61627A988A200407E49 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					3FD490AE27B147F50035A979 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					3FFE672C27AAF86E00BEACC1 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -627,6 +676,7 @@
 				3FFE673727AAFB2A00BEACC1 /* Arithmetic Operator */,
 				3FFE674227AAFBE200BEACC1 /* logical operator */,
 				3FFE674D27B016B100BEACC1 /* Bitwise operators */,
+				3FD490AE27B147F50035A979 /* MinutesConversion */,
 			);
 		};
 /* End PBXProject section */
@@ -692,6 +742,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FC1A61A27A988A200407E49 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FD490AB27B147F50035A979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD490B227B147F50035A979 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -967,6 +1025,22 @@
 			};
 			name = Release;
 		};
+		3FD490B327B147F50035A979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FD490B427B147F50035A979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		3FFE673127AAF86E00BEACC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1111,6 +1185,15 @@
 			buildConfigurations = (
 				3FC1A61C27A988A200407E49 /* Debug */,
 				3FC1A61D27A988A200407E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FD490B527B147F50035A979 /* Build configuration list for PBXNativeTarget "MinutesConversion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FD490B327B147F50035A979 /* Debug */,
+				3FD490B427B147F50035A979 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
