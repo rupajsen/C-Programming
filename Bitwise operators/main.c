@@ -1,6 +1,6 @@
 //
 //  main.c
-//  Bitwise operators
+//  Bitwise operators.
 //
 //  Created by Rupaj Sen on 06/02/22.
 //

@@ -1,6 +1,6 @@
 //
 //  main.c
-//  logical operator
+//  logical operator.
 //
 //  Created by Rupaj Sen on 02/02/22.
 //

@@ -1,6 +1,6 @@
 //
 //  main.c
-//  Calculate the perimeter and area of a rectangle
+//  Calculate the perimeter and area of a rectangle.
 //
 //  Created by Rupaj Sen on 01/02/22.
 //

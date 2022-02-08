@@ -1,6 +1,6 @@
 //
 //  main.c
-//  Enum example
+//  Enum example.
 //
 //  Created by Rupaj Sen on 01/02/22.
 //

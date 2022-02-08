@@ -1,6 +1,6 @@
 //
 //  main.c
-//  Print the byte size of the basic data types
+//  Print the byte size of the basic data types.
 //
 //  Created by Rupaj Sen on 07/02/22.
 //
