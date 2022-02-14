@@ -1,6 +1,6 @@
 //
 //  main.c
-//  Command line Arguments
+//  Command line Arguments.
 //
 //  Created by Rupaj Sen on 01/02/22.
 //
