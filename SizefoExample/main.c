@@ -1,4 +1,3 @@
-//
 //  main.c
 //  Print the byte size of the basic data types.
 //

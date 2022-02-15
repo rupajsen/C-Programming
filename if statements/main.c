@@ -1,4 +1,3 @@
-//
 //  main.c
 //  This programs helps to check a number is odd or even.
 //
