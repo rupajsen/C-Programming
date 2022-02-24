@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3F0F2A2727C60B62002C860D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F2A2627C60B62002C860D /* main.c */; };
 		3F0F2A3227C60ED4002C860D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F2A3127C60ED4002C860D /* main.c */; };
+		3F2C4D6427C7D2EB00C2C8C2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C4D6327C7D2EB00C2C8C2 /* main.c */; };
 		3F392BB627A3BAEB00C5FBA0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F392BB527A3BAEB00C5FBA0 /* main.c */; };
 		3F392BC827A3BB5600C5FBA0 /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F392BC727A3BB5600C5FBA0 /* test.c */; };
 		3F392BD027A429A100C5FBA0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F392BCF27A429A100C5FBA0 /* main.c */; };
@@ -35,6 +36,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		3F0F2A2D27C60ED4002C860D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3F2C4D5F27C7D2EB00C2C8C2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -212,6 +222,8 @@
 		3F0F2A2627C60B62002C860D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		3F0F2A2F27C60ED4002C860D /* Calculate weekly pay */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Calculate weekly pay"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0F2A3127C60ED4002C860D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3F2C4D6127C7D2EB00C2C8C2 /* For loop */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "For loop"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2C4D6327C7D2EB00C2C8C2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		3F392BB227A3BAEB00C5FBA0 /* Xcode Projects */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Xcode Projects"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F392BB527A3BAEB00C5FBA0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		3F392BC027A3BB3C00C5FBA0 /* write name */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "write name"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -254,6 +266,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3F0F2A2C27C60ED4002C860D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2C4D5E27C7D2EB00C2C8C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -405,6 +424,14 @@
 			path = "Calculate weekly pay";
 			sourceTree = "<group>";
 		};
+		3F2C4D6227C7D2EB00C2C8C2 /* For loop */ = {
+			isa = PBXGroup;
+			children = (
+				3F2C4D6327C7D2EB00C2C8C2 /* main.c */,
+			);
+			path = "For loop";
+			sourceTree = "<group>";
+		};
 		3F392BA927A3BAEA00C5FBA0 = {
 			isa = PBXGroup;
 			children = (
@@ -423,6 +450,7 @@
 				3F9D6A1327C2130B003822B4 /* signFunction */,
 				3F0F2A2527C60B62002C860D /* Switch Case */,
 				3F0F2A3027C60ED4002C860D /* Calculate weekly pay */,
+				3F2C4D6227C7D2EB00C2C8C2 /* For loop */,
 				3F392BB327A3BAEB00C5FBA0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -450,6 +478,7 @@
 				3F9D6A1D27C215CF003822B4 /* Nested if */,
 				3F0F2A2427C60B62002C860D /* Switch Case */,
 				3F0F2A2F27C60ED4002C860D /* Calculate weekly pay */,
+				3F2C4D6127C7D2EB00C2C8C2 /* For loop */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -593,6 +622,23 @@
 			name = "Calculate weekly pay";
 			productName = "Calculate weekly pay";
 			productReference = 3F0F2A2F27C60ED4002C860D /* Calculate weekly pay */;
+			productType = "com.apple.product-type.tool";
+		};
+		3F2C4D6027C7D2EB00C2C8C2 /* For loop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2C4D6727C7D2EB00C2C8C2 /* Build configuration list for PBXNativeTarget "For loop" */;
+			buildPhases = (
+				3F2C4D5D27C7D2EB00C2C8C2 /* Sources */,
+				3F2C4D5E27C7D2EB00C2C8C2 /* Frameworks */,
+				3F2C4D5F27C7D2EB00C2C8C2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "For loop";
+			productName = "For loop";
+			productReference = 3F2C4D6127C7D2EB00C2C8C2 /* For loop */;
 			productType = "com.apple.product-type.tool";
 		};
 		3F392BB127A3BAEB00C5FBA0 /* Xcode Projects */ = {
@@ -916,6 +962,9 @@
 					3F0F2A2E27C60ED4002C860D = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					3F2C4D6027C7D2EB00C2C8C2 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					3F392BB127A3BAEB00C5FBA0 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -1005,6 +1054,7 @@
 				3F9D6A1C27C215CF003822B4 /* Nested if */,
 				3F0F2A2327C60B62002C860D /* Switch Case */,
 				3F0F2A2E27C60ED4002C860D /* Calculate weekly pay */,
+				3F2C4D6027C7D2EB00C2C8C2 /* For loop */,
 			);
 		};
 /* End PBXProject section */
@@ -1023,6 +1073,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F0F2A3227C60ED4002C860D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2C4D5D27C7D2EB00C2C8C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2C4D6427C7D2EB00C2C8C2 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1193,6 +1251,22 @@
 			name = Debug;
 		};
 		3F0F2A3527C60ED4002C860D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F2C4D6527C7D2EB00C2C8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F2C4D6627C7D2EB00C2C8C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1616,6 +1690,15 @@
 			buildConfigurations = (
 				3F0F2A3427C60ED4002C860D /* Debug */,
 				3F0F2A3527C60ED4002C860D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F2C4D6727C7D2EB00C2C8C2 /* Build configuration list for PBXNativeTarget "For loop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2C4D6527C7D2EB00C2C8C2 /* Debug */,
+				3F2C4D6627C7D2EB00C2C8C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
