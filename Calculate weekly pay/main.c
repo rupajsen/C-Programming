@@ -61,5 +61,5 @@ int main()
     printf("Your taxes this week is: %.2f\n", taxes);
     printf("Your net pay this week is: %.2f\n", netPay);
     
-    return 0;
+    
 }
