@@ -24,7 +24,7 @@ int main()
     printf("Please enter the number of hours worked this week: ");
     
     //get the input
-    scanf("%d \n", &hours);
+    scanf("%d ", &hours);
     
     //calculate the gross pay
     if  (hours<=40)
